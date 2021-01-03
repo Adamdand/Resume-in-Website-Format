@@ -172,3 +172,55 @@ html, body {
 .btn-primary:hover {
     background-color: #2D9CDB;
 }
+
+.linkedin-nav img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.yesoption {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.yesoption-header {
+    margin: .5em 15% 2em 15%;
+    color: black;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.yesoption-header:hover {
+    background-color: rgba(255,255,0);
+}
+
+.nooption {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.nooption-header {
+    margin: .5em 15% 2em 15%;
+    color: black;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.nooption-header:hover {
+    background-color: rgba(255,255,0);
+}
