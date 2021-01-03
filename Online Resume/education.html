@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="education.js" async></script> <!-- async makes the back end download at same time as the front end-->
+
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul> <!--unordered lists (ol is ordered list)-->
+                    <li><a href="home.html">HOME</a></li> <!-- li = list item-->
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="workHistory.html">WORK HISTORY</a></li>
+                </ul>
+            </nav>
+            <h1 class="myName">Adam D'Andrea</h1> <!-- heading element, 1,2,3,4,5,6 for smaller and smaller sizes-->
+        </header>
+        <section class="content-section container">
+            <h2 class="section-header"> Degrees </h2>
+            <div>
+                <div class="edj-row">
+                    <span class="edj-item degree">Master of Engineering</span>
+                    <span class="edj-item degree">Software Specialization</span>
+                    <span class="edj-item edj-date">May2020-May2021</span>
+                    <button onclick="location.href='SoftwareCourses.html';" type="button" class="btn btn-Software edj-item edj-btn btn-primary">Details</button>
+                </div>
+                <div class="edj-row">
+                    <span class="edj-item degree">BSc</span>
+                    <span class="edj-item degree">Petroleum Engineering</span>
+                    <span class="edj-item edj-date">Sep2012-May2018</span>
+                    <button onclick="location.href='PetroleumCourses.html';" type="button" class="btn btn-Petro edj-item edj-btn btn-primary">Details</button>
+                </div>
+                <div class="edj-row">
+                    <span class="edj-item degree">BSc</span>
+                    <span class="edj-item degree">Geology</span>
+                    <span class="edj-item edj-date">Sep2008-May2012</span>
+                    <button onclick="location.href='GeologyCourses.html';" type="button" class="btn btn-Geo edj-item edj-btn btn-primary">Details</button>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">  
+            <h3 class="footer-text">Find Me At:</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.linkedin.com/in/adamdandrea/" target="_blank">
+                    <img src="Images/LinkedIn Logo.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Adamdand?tab=repositories" target="_blank">
+                    <img src="Images/GitHub Logo.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/adam.dandrea.18" target="_blank">
+                    <img src="Images/FaceBook Logo.jpg">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        </footer>
+    </body>
+</html>
